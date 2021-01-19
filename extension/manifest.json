@@ -1,0 +1,11 @@
+{
+  "name": "Imgur gif to gifv",
+  "description": "Redirects imgur .GIF images to .GIFV, saving bandwidth",
+  "manifest_version": 2,
+  "version": "1.0",
+  "homepage_url": "https://github.com/ysnglt/imgur-gif-to-gifv",
+  "permissions": ["webRequest", "webRequestBlocking", "https://i.imgur.com/*"],
+  "background": {
+    "scripts": ["index.js"]
+  }
+}

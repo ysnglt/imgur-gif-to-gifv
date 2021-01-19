@@ -1,0 +1,28 @@
+{
+  "name": "imgur-gif-to-gifv",
+  "engines": {
+    "node": "14.15.4"
+  },
+  "version": "1.0",
+  "description": "Redirects imgur .GIF images to .GIFV, saving bandwidth",
+  "main": "extension/index.js",
+  "repository": {
+    "url": "https://github.com/ysnglt/imgur-gif-to-gifv"
+  },
+  "keywords": [
+    "imgur",
+    "gifv",
+    "gif"
+  ],
+  "devDependencies": {
+    "web-ext": "~5.5.0"
+  },
+  "webExt": {
+    "sourceDir": "extension"
+  },
+  "scripts": {
+    "lint": "web-ext lint"
+  },
+  "author": "ysnglt",
+  "license": "MIT"
+}
