@@ -2,4 +2,5 @@ language: node_js
 node_js:
   - "14"
 script:
-  - web-ext sign --api-key FFUSER --api-secret FFSECRET
+  - web-ext lint
+  - web-ext sign --api-key FFUSER --api-secret FFSECRET -a build
