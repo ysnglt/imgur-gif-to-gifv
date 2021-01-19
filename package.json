@@ -3,7 +3,7 @@
   "engines": {
     "node": "14.15.4"
   },
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Redirects imgur .GIF images to .GIFV, saving bandwidth",
   "main": "extension/index.js",
   "repository": {
@@ -14,7 +14,7 @@
     "gifv",
     "gif"
   ],
-  "dependencies": {
+  "devDependencies": {
     "web-ext": "~5.5.0"
   },
   "webExt": {
